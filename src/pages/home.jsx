@@ -117,7 +117,7 @@ function Home() {
               <div className={`card ${styles.productCard}`}>
                 <img src={product.image} alt={product.title} className={styles.cardImage} />
                 <div className="card-body">
-                  <h5 className="card-title">{product.title}</h5>
+                  <h5 className={styles.title}>{product.title}</h5>
                   <p className="card-text">${product.price}</p>
                   <button onClick={() => handleViewMore(product)} className={`btn btn-dark ${styles.button}`}>
                     View More

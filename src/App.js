@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
 
-    <Router>
+    <Router basename="/UR_Store">
     <div className="App">
       <Navbar />
       <main className="content">
