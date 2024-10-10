@@ -8,7 +8,7 @@ function Footer() {
     <footer className={styles.footer}>
       <p>&copy; 2024 Ahmed Samir . All Rights Reserved.</p>
       <div className={styles.links}>
-        <a href="/about">About</a> | <a href="/contact">Contact Us</a>
+        
       </div>
       <div className={styles.socialIcons}>
         <a href="https://www.linkedin.com/in/ahmed-samir-917ba22a5/" target="_blank" rel="noopener noreferrer">

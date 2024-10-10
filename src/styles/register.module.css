@@ -1,13 +1,13 @@
 /* register.module.css */
 .container {
     max-width: 400px;
-    margin: 0 auto;
+
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
-    margin: 20px auto;
+    margin: 80px auto 0 auto !important;
   }
   
   .title {
@@ -15,7 +15,9 @@
     font-size: 24px;
     color: #333;
   }
-  
+  .error {
+    color: red; /* Set error messages to red */
+  }
   .form {
     display: flex;
     flex-direction: column;
